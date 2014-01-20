@@ -31,5 +31,16 @@ return array(
      * Register app language
      */
 
-    'lang' => 'en'
+    'lang' => 'en',
+
+    /**
+     * Register database information
+     */
+
+    'database' => array(
+        'host' => 'localhost',
+        'database' => 'imp02',
+        'username' => 'root',
+        'password' => 'secret'
+    )
 );
