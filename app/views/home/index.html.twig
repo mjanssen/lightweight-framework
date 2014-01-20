@@ -1,0 +1,46 @@
+{% include 'templates/header.html' %}
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Framework</a>
+        </div>
+    </div>
+</div>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <h1>You have landed!</h1>
+        <p>You've succesfully installed the framework!</p>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Symfony 2</h2>
+            <p>This framework makes use of Symfony 2 components like routes, responses and requests</p>
+            <p><a class="btn btn-default" target="_blank" href="http://www.symfony.com/" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Laravel 4</h2>
+            <p>Some Laravel 4 helpers are included to make work easier.</p>
+            <p><a class="btn btn-default" target="_blank" href="http://www.laravel.com" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Twig</h2>
+            <p>The framework makes use of the Twig template engine.</p>
+            <p><a class="btn btn-default" target="_blank" href="http://twig.sensiolabs.org/" role="button">View details &raquo;</a></p>
+        </div>
+    </div>
+</div> <!-- /container -->
+
+{% include 'templates/footer.html' %}
